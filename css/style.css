@@ -3,6 +3,7 @@
 }
 .line {
     transform: rotate(180deg);
+    /* color: aliceblue; */
   }
   body{
     background-color: rgba(0, 0, 0, 0.5);
@@ -29,4 +30,3 @@
   .text{
     color: rgb(8, 0, 255);
   }
-  
