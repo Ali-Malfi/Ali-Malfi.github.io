@@ -37,3 +37,13 @@
   .yellow{
     background-color: rgb(178, 16, 16);
   }
+  .myprofiel{
+    
+    transition: 0.3s;
+
+  }
+  .myprofiel:hover{
+    transform: scale(1.5);
+    /* transform:  rotate(35deg); */
+  }
+  
