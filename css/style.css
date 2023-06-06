@@ -46,4 +46,15 @@
     transform: scale(1.5);
     /* transform:  rotate(35deg); */
   }
+
+  .icons a{
+    display: inline-block;
+    color: white;
+    transition: transform 0.5s;
+}
+
+.icons a:hover{
+    color: #d24547;
+    transform: translateY(-5px);
+}
   
