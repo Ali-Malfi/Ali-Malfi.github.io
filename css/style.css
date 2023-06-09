@@ -57,12 +57,12 @@
     color: #d24547;
     transform: translateY(-20px);
 }
-/* i{
-  display: inline-block;
-  color: white;
-  transition: transform 0.5s;
+
+
+.red-color {
+  color: #d24547 !important;
 }
-i:hover{
-  color: #d24547;
-  transform: translateY(-10px);
-} */
+
+#home-link{
+  color: white;
+}
