@@ -1,9 +1,23 @@
-let home = document.querySelector("#home-link");
+let links = document.querySelectorAll(".nav-link");
 
-console.log("Home element:", home);
 
-home.addEventListener('click', function() {
-    console.log('home event');
+for (let i = 0; i < links.length; i++) {
+    const link = links[i];
+    link.addEventListener('click', function() {
+        console.log('home event');
+    
+        addAndRemoveClass(link);
 
-    home.classList.toggle('red-color');
-});
+    });
+}
+function addAndRemoveClass(linkToAdd) {
+    for (let i = 0; i < links.length; i++) {
+        const link = links[i];
+        link.classList.remove('red-color');
+        
+
+    }
+    linkToAdd.classList.add('red-color');
+
+}
+
