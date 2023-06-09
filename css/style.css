@@ -55,6 +55,14 @@
 
 .icons a:hover{
     color: #d24547;
-    transform: translateY(-5px);
+    transform: translateY(-20px);
 }
-  
+/* i{
+  display: inline-block;
+  color: white;
+  transition: transform 0.5s;
+}
+i:hover{
+  color: #d24547;
+  transform: translateY(-10px);
+} */
