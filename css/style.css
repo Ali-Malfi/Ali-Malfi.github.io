@@ -66,3 +66,9 @@
 #home-link{
   color: white;
 }
+.name{
+  color: rgb(0, 255, 21);
+}
+.bi-arrow-up-circle-fill {
+  color: rgb(0, 255, 21); /* Verander de kleur naar de gewenste kleur, bijvoorbeeld rood */
+}
