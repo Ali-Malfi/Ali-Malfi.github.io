@@ -72,3 +72,8 @@
 .bi-arrow-up-circle-fill {
   color: rgb(0, 255, 21); /* Verander de kleur naar de gewenste kleur, bijvoorbeeld rood */
 }
+.map{
+  width:100%;
+  height:380px;
+  border: 2px solid black;
+}
